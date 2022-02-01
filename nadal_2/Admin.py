@@ -32,14 +32,6 @@ class Sisselogimine():
                 exit()
 
 
-    def Special_access(self, add_u, delete, chng, add_f, remove, admin):
-        add_user = add_u
-        del_user = delete
-        chng_user = chng
-        add_file = add_f
-        remove_file = remove
-        admin = admin
-
     def access(self, add_u, delete, chng, add_f, remove, admin):
 
         self.add_user = add_u
