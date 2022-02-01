@@ -1,0 +1,18 @@
+from nadal_1.Inimene import Inimene
+
+Tootaja1 = Inimene("Andres", "Toomiköl", 1)
+Tootaja1.tootaja()
+Tootaja1.test_quality()
+input()
+Tootaja2 = Inimene("Kristjan", "Generhiljön", 2)
+print()
+Tootaja2.tootaja()
+Tootaja2.test_quality()
+Tootaja2.tutvustus()
+input()
+print("\n")
+Tootaja3 = Inimene("Gerlin", "Fonthersöhnij", 0)
+Tootaja3.test_quality()
+Tootaja3.tootaja()
+print()
+input()
