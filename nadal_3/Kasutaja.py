@@ -42,12 +42,6 @@ class Sisselogimine():
 
     def access(self, add_u, delete, chng, add_f, remove, admin):
 
-        self.add_user = add_u
-        self.delete_user = delete
-        self.change_user = chng
-        self.add_file = add_f
-        self.remove_file = remove
-        self.admin_user = admin
 
         if add_u == "1":
             print("Add_User avaible")
