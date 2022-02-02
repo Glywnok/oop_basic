@@ -31,7 +31,8 @@ if Edit_user == 1:
         print("Teie kasutaja ei saa muutuda teist kasutajate võimalust")
         Edit_user = 0
 
-Kasutaja1.access(Create_user, Delete_user, Edit_user, Add_file, Remove_file, Admin)
 
-Kasutaja_access = Privileegid(Create_user, Delete_user, Edit_user, Add_file, Remove_file, Admin)
+
+Kasutaja_access = Privileegid([Create_user, Delete_user, Edit_user, Add_file, Remove_file, Admin])
 Kasutaja_access.privileegid()
+Kasutaja_access.access()
