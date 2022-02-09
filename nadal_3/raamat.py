@@ -5,3 +5,5 @@ class raamat():
         self.autor = autor
         self.hind = hind
         self.reiting = reiting
+
+
