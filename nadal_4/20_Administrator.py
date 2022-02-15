@@ -1,5 +1,5 @@
-from nadal_3.new_Admin import Sisselogimine
-from nadal_3.new_Admin import Privileegid
+from nadal_4.aboba import Sisselogimine
+from nadal_4.lesion import Privileegid
 
 sit = False
 while sit == 0:
